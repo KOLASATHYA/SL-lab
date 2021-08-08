@@ -1,0 +1,16 @@
+#Write a Ruby program which accept the radius of a circle from the user and compute the parameter and area.
+#code
+
+rad = 5.0
+peri = 0.0
+area = 0.0
+print "Input the radius of the circle: "
+rad = gets.to_f
+peri = 2 * 3.141592653 * rad
+area = 3.141592653 * rad * rad
+puts "The perimeter is #{perimeter}."
+puts "The area is #{area}."
+
+
+#output
+Input the radius of the circle: The perimeter is 31.41592653.The area is 78.539816325.
