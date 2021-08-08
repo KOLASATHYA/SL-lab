@@ -1,0 +1,15 @@
+#Write a Ruby script to print odd numbers from 10 to 1
+
+##code
+puts "Odd numbers between 9 to 1: "
+9.step 1, -2 do |x|
+      puts "#{x}"
+ end
+
+######o/p:
+Odd numbers between 9 to 1: 
+9
+7
+5
+3
+1
