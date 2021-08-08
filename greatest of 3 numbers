@@ -1,0 +1,15 @@
+#Write a Ruby script to find the greatest of three numbers
+
+##code
+
+x,y,z = 2,5,4
+if x >= y and x >= z
+puts "x = #{x} is greatest."
+elsif y >= z and y >= x 
+puts "y = #{y} is greatest."
+else 
+puts "z = #{z} is greatest."
+End
+
+######output
+y = 5 is greatest
